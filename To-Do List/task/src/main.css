@@ -1,0 +1,111 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button {
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+    min-height: 40px;
+    width: 100%;
+}
+
+#input-task {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px #70587c solid;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: 40px;
+    margin: 0 5px;
+    flex: 1 1 100%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+#input-task:focus-visible {
+    outline: none;
+}
+
+.button {
+    background-color: #70587c;
+    color: #fff;
+    flex: 0 0 150px;
+    height: 40px;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: ease .5s;
+    padding-top: 5px;
+}
+
+.button:hover {
+    background-color: #c8b8db;
+}
+
+.flex-start {
+    justify-self: flex-start;
+}
+
+.flex-stretch {
+    flex: 1 1 max-content;
+}
+
+.flex-end {
+    justify-self: flex-end;
+}
+
+.delete-btn {
+    background-color: transparent;
+    border: none;
+    width: 25px;
+}
+
+.delete-btn img {
+    width: 100%;
+    height: 100%;
+    transition: ease .5s;
+}
+
+.delete-btn img:hover {
+    opacity: 60%;
+}
+
+ul {
+    padding: 0;
+}
+
+.check {
+    margin-right: 10px;
+}
+
+.task {
+    font-size: 20px;
+    text-decoration: inherit;
+}
+
+.complete {
+    text-decoration: line-through;
+}

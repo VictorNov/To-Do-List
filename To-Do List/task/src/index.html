@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap" rel="stylesheet">
+    <title>To-Do List</title>
+</head>
+<body>
+    <header>
+        <h1>To-Do List</h1>
+    </header>
+    <main class="container flex-column">
+        <form class="flex-row" id="todo-form">
+            <label for="input-task"></label>
+            <input type="text" id="input-task" name="input-task" class="border-bottom flex-stretch">
+            <button id="add-task-button" class="button flex-end">
+                <span>Add Task</span>
+            </button>
+        </form>
+        <ul id="task-list">
+        </ul>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
